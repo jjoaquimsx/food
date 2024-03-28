@@ -22,25 +22,25 @@ export function Sidebar() {
       <Nav>
         <ul>
           <li>
-            <NavLink to='/'>
+            <NavLink to='food/burguers'>
               <BurguerIcon />
               <span>Hamburgueres</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to='pizzas'>
+            <NavLink to='food/pizzas'>
               <PizzaIcon />
               <span>Pizzas</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to='drinks'>
+            <NavLink to='food/drinks'>
               <SodaIcon />
               <span>Refrigerantes</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to='icecreams'>
+            <NavLink to='food/icecreams'>
               <IceCream />
               <span>Sorvetes</span>
             </NavLink>

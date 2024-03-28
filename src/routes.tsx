@@ -6,15 +6,14 @@ import PizzasPage from './pages/Main/Pizza'
 import RefrigerantesPage from './pages/Main/Refrigerantes'
 import IcecreamPage from './pages/Main/icecream'
 
-
 export function AppRoutes() {
   return (
     <Routes>
-      <Route path='/' element={<MainPage />}>
-        <Route path='/' element={<BurguersPage />} />
-        <Route path='pizzas' element={<PizzasPage />} />
-        <Route path='drinks' element={<RefrigerantesPage />} />
-        <Route path='icecreams' element={< IcecreamPage/> }/>
+      <Route path='food' element={<MainPage />}>
+        <Route path='food/burguers' element={<BurguersPage />} />
+        <Route path='food/pizzas' element={<PizzasPage />} />
+        <Route path='food/drinks' element={<RefrigerantesPage />} />
+        <Route path='food/icecreams' element={<IcecreamPage />} />
       </Route>
     </Routes>
   )
